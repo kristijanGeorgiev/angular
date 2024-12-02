@@ -1,0 +1,25 @@
+<div *ngIf="movie">
+    <h2 style="color: rgb(0, 0, 0);">Movie Details</h2>
+    <p style="color: rgb(0, 0, 0);"><strong>ID:</strong> {{ movie.id }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Title:</strong> {{ movie.title }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Year:</strong> {{ movie.year }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Director:</strong> {{ movie.director }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Genre:</strong> {{ movie.genre.join(', ') }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Plot:</strong> {{ movie.plot }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Rating:</strong> {{ movie.rating }}</p>
+  
+    <h3 style="color: rgb(0, 0, 0);">Oscars</h3>
+    <ul>
+      <li *ngFor="let oscar of getOscarEntries(movie.oscars)">
+        <strong style="color: rgb(0, 0, 0);">{{ oscar.key }}:</strong> <strong style="color: rgb(0, 0, 0);">{{ oscar.value }}</strong>
+      </li>
+    </ul>
+  
+    <h3 style="color: rgb(0, 0, 0);">Cast</h3>
+    <ul>
+      <li *ngFor="let castMember of movie.cast">
+        <strong style="color: rgb(0, 0, 0);">{{ castMember.actor }}</strong> <strong style="color: rgb(0, 0, 0);">as {{ castMember.character }}</strong> 
+      </li>
+    </ul>
+  </div>
+  
