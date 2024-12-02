@@ -1,0 +1,17 @@
+<div *ngIf="actor">
+    <h2 style="color: rgb(0, 0, 0);">Actor Details</h2>
+    <p style="color: rgb(0, 0, 0);"><strong>ID:</strong> {{ actor.id }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Name:</strong> {{ actor.name }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>BirthDate:</strong> {{ actor.birthdate }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Height:</strong> {{ actor.height }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Nationality:</strong> {{ actor.nationality}}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Notable_Works:</strong> {{ actor.notable_works }}</p>
+  
+    <h3 style="color: rgb(0, 0, 0);">Cast</h3>
+    <ul>
+      <li *ngFor="let notable_work of actor.notable_works">
+        <strong style="color: rgb(0, 0, 0);">{{ actor.notable_works }}</strong>
+      </li>
+    </ul>
+  </div>
+  

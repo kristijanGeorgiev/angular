@@ -1,0 +1,40 @@
+<div *ngIf="movie">
+    <h2>Edit Movie</h2>
+    <form>
+        <label for="title">Title:</label>
+        <input [(ngModel)]="movie.title" name="title" />
+
+        <label for="year">Year:</label>
+        <input [(ngModel)]="movie.year" name="year" />
+
+        <label for="director">Director:</label>
+        <input [(ngModel)]="movie.director" name="director" />
+
+        <label for="genre">Genre:</label>
+        <input [(ngModel)]="movie.genre" name="genre" />
+
+        <label for="plot">Plot:</label>
+        <input [(ngModel)]="movie.plot" name="plot" />
+
+        <label for="oscars">Oscars:</label>
+        <ul>
+            <li *ngFor="let oscar of getOscarEntries(movie.oscars); let i = index">
+                <input [value]="movie.oscars" (input)="updateMember(i, $event)" />
+            </li>
+        </ul>
+
+        <label for="rating">Rating:</label>
+        <input [(ngModel)]="movie.rating" name="rating" type="number" />
+
+        <h3>Cast</h3>
+        <div *ngFor="let cast of movie.cast; let i = index">
+            <label for="Actor{{i}}">Actor:</label>
+            <input [(ngModel)]="movie.cast[i].actor" name="castName{{i}}" />
+
+            <label for="Character{{i}}">Character:</label>
+            <input [(ngModel)]="movie.cast[i].character" name="castName{{i}}" type="number" />
+        </div>
+
+        <button style="background-color: rgb(23, 124, 218); color: white;" (click)="saveChanges()">Save Changes</button>
+    </form>
+</div>

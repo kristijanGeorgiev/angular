@@ -1,0 +1,30 @@
+<div>
+    <h2>Add New Actor</h2>
+<button 
+    style="background-color: rgb(32, 168, 5); color: white;" 
+    type="submit">
+    Save Actor
+</button>
+    <form (submit)="addActor()">
+        <label for="name">Name:</label>
+        <input [(ngModel)]="newActor.name" name="name" required />
+
+        <!-- Movie Year -->
+        <label for="birthdate">Birth Date:</label>
+        <input [(ngModel)]="newActor.birthdate" name="birthdate" required />
+
+        <label for="height">Height:</label>
+        <input [(ngModel)]="newActor.height" name="height" type="number" required />
+
+        <!-- Director -->
+        <label for="nationality">Nationality:</label>
+        <input [(ngModel)]="newActor.nationality" name="nationality" required />
+
+        <h3>Notable Works</h3>
+        <div *ngFor="let work of actor.notableWorks; let i = index">
+        <label for="work{{i}}">Work {{i + 1}}:</label>
+        <input [(ngModel)]="actor.notableWorks[i]" name="work{{i}}" />
+        </div>
+        <button style="background-color: rgb(17, 104, 157); color: white;" type="button" (click)="addNotableWorksField()">Add New Notable Work</button>
+    </form>
+</div>
