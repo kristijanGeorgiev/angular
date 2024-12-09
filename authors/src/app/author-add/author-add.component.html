@@ -1,0 +1,43 @@
+<div>
+    <h2>Add New Author</h2>
+    <form (submit)="addAuthor()">
+        <!-- Movie Title -->
+        <label for="name">Name:</label>
+        <input [(ngModel)]="newAuthor.name" name="name" required />
+
+        <!-- Movie Year -->
+        <label for="birth_date">Birth_Date:</label>
+        <input [(ngModel)]="newAuthor.birth_date" name="birth_date" type="date" required />
+
+        <label for="death_date">DeathDate:</label>
+        <input [(ngModel)]="newAuthor.death_date" name="death_date" type="date" required />
+
+        <label for="alive">Alive:</label>
+        <input [(ngModel)]="newAuthor.alive" name="alive"required />
+
+        <label for="nationality">Nationality:</label>
+    <select [(ngModel)]="newAuthor.nationality" name="nationality" required>
+      <option *ngFor="let nationality of nationality" [ngValue]="nationality">
+        {{ nationality }}
+      </option>
+    </select>
+
+        <!-- Cast -->
+        <label for="bibliography">Bibliography</label>
+        <div *ngFor="let bibliography of newAuthor.bibliography; let i = index">
+            <label for="Name{{i}}">Name:</label>
+            <input [(ngModel)]="newAuthor.bibliography[i].name" name="Name{{i}}" />
+
+            <label for="Year{{i}}">Year:</label>
+            <input [(ngModel)]="newAuthor.bibliography[i].year" name="Year{{i}}" type="number" />
+
+            <label for="Type{{i}}">Type:</label>
+            <input [(ngModel)]="newAuthor.bibliography[i].type" name="type{{i}}" />
+        </div>
+        <hr>
+        <div style="margin-top: 10px;">
+            <button type="submit">Save Author</button>
+            <button type="button" class="back-button" (click)="goToAuthorList()">Back</button>
+          </div>
+    </form>
+</div>

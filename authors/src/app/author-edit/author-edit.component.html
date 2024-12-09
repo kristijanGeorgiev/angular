@@ -1,0 +1,30 @@
+<div *ngIf="author">
+    <h2>Edit Author</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input [(ngModel)]="author.name" name="name" />
+
+        <label for="birth_date">Birth_Date:</label>
+        <input [(ngModel)]="author.birth_date" name="birth_date" type="date" required/>
+
+        <label for="death_date">Death_Date:</label>
+        <input [(ngModel)]="author.death_date" name="death_date" type="date" required/>
+
+        <label for="nationality">Nationality:</label>
+        <input [(ngModel)]="author.nationality" name="nationality" />
+
+        <h3>Bibliography</h3>
+        <div *ngFor="let bibliography of author.bibliography; let i = index">
+            <label for="Name{{i}}">Name:</label>
+            <input [(ngModel)]="author.bibliography[i].name" name="Name{{i}}" />
+
+            <label for="Year{{i}}">Year:</label>
+            <input [(ngModel)]="author.bibliography[i].year" name="year{{i}}" type="number" />
+
+            <label for="Type{{i}}">Type:</label>
+            <input [(ngModel)]="author.bibliography[i].type" name="type{{i}}" />
+        </div>
+
+        <button style="background-color: rgb(23, 124, 218); color: white;" (click)="saveChanges()">Save Changes</button>
+    </form>
+</div>

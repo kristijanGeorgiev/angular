@@ -1,0 +1,61 @@
+<br>
+<div>
+    <div class="filter-container">
+        <label for="nameFilter">Name:</label>
+        <input [(ngModel)]="nameFilter" (input)='applyFilters()' name="nameFilter" class="input-field"/>
+        <label for="nationalityFilter">Nationality:</label>
+  <select
+    [(ngModel)]="nationalityfilter"
+    (change)="applyFilters()"
+    name="nationalityFilter"
+    class="select-field">
+    <option value="">All Nationalities</option>
+    <option *ngFor="let nationality of nationality" [value]="nationality">
+      {{ nationality }}
+    </option>
+  </select>
+    </div>
+    <button style="background-color: rgb(0, 192, 250); color: white;"><a routerLink="/author-add" class="add-author">Add New Author</a></button>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th (click)="sortByID()">ID</th>
+                <th (click)="sortByName()">Name</th>
+                <th>Birth_Date</th>
+                <th>Death_Date</th>
+                <th>Alive</th>
+                <th>Nationality</th>
+                <th>Bibliography</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let author of authors">
+                <td>{{ author.id }}</td>
+                <td>{{ author.name }}</td>
+                <td>{{ author.birth_date }}</td>
+                <td>{{ author.death_date }}</td>
+                <td>
+                    <span *ngIf="isAlive(author)">
+                      Yes
+                    </span>
+                    <span *ngIf="!isAlive(author)">
+                       No
+                    </span>
+                  </td>
+                <td>{{ author.nationality }}</td>
+                <td>
+                    <ul>
+                        <li *ngFor="let bibliography of author.bibliography">{{ bibliography.name }} {{ bibliography.year }} {{ bibliography.type }}</li>
+                    </ul>
+                </td>
+                <td>
+                    <button style="background-color: blue; color: white;" (click)="viewAuthorDetails(author)">View</button>
+                    <button style="background-color: rgb(21, 177, 15); color: white;" (click)="editAuthor(author)">Edit</button>
+                    <button style="background-color: red; color: white;" (click)="deleteAuthor(author)">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

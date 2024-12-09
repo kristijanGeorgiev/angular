@@ -1,0 +1,16 @@
+<div *ngIf="author">
+    <h2 style="color: rgb(0, 0, 0);">Author Details</h2>
+    <p style="color: rgb(0, 0, 0);"><strong>ID:</strong> {{ author.id }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Name:</strong> {{ author.name }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Birth_Date:</strong> {{ author.birth_date }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Death_Date:</strong> {{ author.death_date }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Nationality:</strong> {{ author.nationality }}</p>
+  
+    <h3 style="color: rgb(0, 0, 0);">Bibiliography</h3>
+    <ul>
+      <li *ngFor="let bibliography of author.bibliography">
+        <strong style="color: rgb(0, 0, 0);">{{ bibliography.name }}</strong> <strong style="color: rgb(0, 0, 0);"> {{ bibliography.year }}</strong> <strong style="color: rgb(0, 0, 0);"> {{ bibliography.type }}</strong>
+      </li>
+    </ul>
+  </div>
+  
