@@ -1,0 +1,40 @@
+<div>
+    <h2>Add New Band</h2>
+    <form (submit)="addBand()">
+        <!-- Movie Title -->
+        <label for="name">Name:</label>
+        <input [(ngModel)]="newBand.name" name="name" required />
+
+        <label for="genres">Genres:</label>
+       <select [(ngModel)]="newBand.genre" name="genre" required>
+       <option *ngFor="let genre of genre" [ngValue]="genre">
+        {{ genre }}
+       </option>
+       </select>
+
+        <label for="formed">Formed:</label>
+        <input [(ngModel)]="newBand.formed" name="formed" type="number" required />
+
+        <label for="location">Location:</label>
+        <input [(ngModel)]="newBand.location" name="location" required />
+
+        <label for="members">Members:</label>
+        <input [(ngModel)]="newBand.members" name="members" required />
+
+        <!-- Cast -->
+        <label for="albums">Albums</label>
+        <div *ngFor="let albums of newBand.albums; let i = index">
+            <label for="Name{{i}}">Name:</label>
+            <input [(ngModel)]="newBand.albums[i].name" name="Name{{i}}" />
+
+            <label for="Year{{i}}">Year:</label>
+            <input [(ngModel)]="newBand.albums[i].year" name="Year{{i}}" type="number" />
+
+        </div>
+        <hr>
+        <div style="margin-top: 10px;">
+            <button type="submit">Save Band</button>
+            <button type="button" class="back-button" (click)="goToBandList()">Back</button>
+          </div>
+    </form>
+</div>

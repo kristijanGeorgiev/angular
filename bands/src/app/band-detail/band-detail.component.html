@@ -1,0 +1,17 @@
+<div *ngIf="band">
+    <h2 style="color: rgb(0, 0, 0);">Band Details</h2>
+    <p style="color: rgb(0, 0, 0);"><strong>ID:</strong> {{ band.id }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Name:</strong> {{ band.name }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Genre:</strong> {{ band.genre }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Formed:</strong> {{ band.genre }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Location:</strong> {{ band.location }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Members:</strong> {{ band.members }}</p>
+  
+    <h3 style="color: rgb(0, 0, 0);">Albums</h3>
+    <ul>
+      <li *ngFor="let albums of band.albums">
+        <strong style="color: rgb(0, 0, 0);">{{ albums.name }}</strong> <strong style="color: rgb(0, 0, 0);"> {{ albums.year }}</strong>
+      </li>
+    </ul>
+  </div>
+  
