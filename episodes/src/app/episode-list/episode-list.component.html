@@ -1,0 +1,71 @@
+<br>
+<div>
+    <div class="filter-container">
+        <label for="titleFilter">Title:</label>
+        <input [(ngModel)]="titlefilter" (input)='applyFilters()' name="titlefilter" class="input-field"/>
+        <label for="directorfilter">Directors:</label>
+  <select
+    [(ngModel)]="directorfilter"
+    (change)="applyFilters()"
+    name="directorfilter"
+    class="select-field">
+    <option value="">All Directors</option>
+    <option *ngFor="let director of director" [value]="director">
+      {{ director }}
+    </option>
+  </select>
+  <label for="actorfilter">Actors:</label>
+  <select
+    [(ngModel)]="actorfilter"
+    (change)="applyFilters()"
+    name="actorfilter"
+    class="select-field">
+    <option value="">All Actors</option>
+    <option *ngFor="let actor of actor" [value]="actor.name">
+      {{ actor.name }}
+    </option>
+  </select>
+    </div>
+    <button style="background-color: rgb(0, 192, 250); color: white;"><a routerLink="/episode-add" class="add-episode">Add New Episode</a></button>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th (click)="sortByID()">ID</th>
+                <th (click)="sortByTitle()">Title</th>
+                <th>Series</th>
+                <th>BroadCast_Date</th>
+                <th>Director</th>
+                <th>Writer</th>
+                <th>Plot</th>
+                <th>Doctor</th>
+                <th>Companion</th>
+                <th>Cast</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let episode of episodes">
+                <td>{{ episode.id }}</td>
+                <td>{{ episode.title }}</td>
+                <td>{{ episode.series }}</td>
+                <td>{{ episode.broadcast_date }}</td>
+                <td>{{ episode.director }}</td>
+                <td>{{ episode.writer }}</td>
+                <td>{{ episode.plot }}</td>
+                <td>{{ episode.doctor.actor}} {{ episode.doctor.incarnation }}</td>
+                <td>{{ episode.companion.actor }} {{episode.companion.character }}</td>
+                <td>
+                    <ul>
+                        <li *ngFor="let cast of episode.cast">{{ cast.actor }} {{ cast.character }}</li>
+                    </ul>
+                </td>
+                <td>
+                    <button style="background-color: blue; color: white;" (click)="viewEpisodeDetails(episode)">View</button>
+                    <button style="background-color: rgb(21, 177, 15); color: white;" (click)="editEpisode(episode)">Edit</button>
+                    <button style="background-color: red; color: white;" (click)="deleteEpisode(episode)">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

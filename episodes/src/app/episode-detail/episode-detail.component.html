@@ -1,0 +1,19 @@
+<div *ngIf="episode">
+    <h2 style="color: rgb(0, 0, 0);">Episode Details</h2>
+    <p style="color: rgb(0, 0, 0);"><strong>ID:</strong> {{ episode.id }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Title:</strong> {{ episode.title }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Series:</strong> {{ episode.series }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>BroadCast_Date:</strong> {{ episode.broadcast_date }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Director:</strong> {{ episode.director }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Writer:</strong> {{ episode.writer }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Plot:</strong> {{ episode.plot }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Doctor:</strong> {{ episode.doctor.actor }} {{ episode.doctor.incarnation }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Companion:</strong> {{ episode.companion.actor }} {{ episode.companion.character }}</p>
+    <h3 style="color: rgb(0, 0, 0);">Cast</h3>
+    <ul>
+      <li *ngFor="let cast of episode.cast">
+        <strong style="color: rgb(0, 0, 0);">{{ cast.actor }}</strong> <strong style="color: rgb(0, 0, 0);"> {{ cast.character }}</strong>
+      </li>
+    </ul>
+  </div>
+  
