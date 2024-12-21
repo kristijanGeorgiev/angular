@@ -1,0 +1,26 @@
+ <table>
+        <thead>
+            <tr>
+                <th (click)="sortByID()">ID</th>
+                <th (click)="sortByTitle()">Title</th>
+                <th>Completed</th>
+                <th>Category</th>
+                <th>SubCategory</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let todo of todos">
+                <td>{{ todo.id }}</td>
+                <td>{{ todo.title }}</td>
+                <td>{{ todo.completed }}</td>
+                <td>{{ todo.category }}</td>
+                <td>{{  todo.subcategory}}</td>
+                <td>
+                    <button style="background-color: blue; color: white;" (click)="viewTodoDetails(todo)">View</button>
+                    <button style="background-color: rgb(21, 177, 15); color: white;" (click)="editTodo(todo)">Edit</button>
+                    <button style="background-color: red; color: white;" (click)="deleteTodo(todo)">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>

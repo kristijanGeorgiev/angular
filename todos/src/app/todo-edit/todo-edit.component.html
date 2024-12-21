@@ -1,0 +1,18 @@
+<div *ngIf="todo">
+    <h2>Edit Todo</h2>
+    <form>
+        <label for="title">Title:</label>
+        <input [(ngModel)]="todo.title" name="title" />
+
+        <label for="completed">Completed:</label>
+        <input [(ngModel)]="todo.completed" name="completed" />
+
+        <label for="category">Category:</label>
+        <input [(ngModel)]="todo.category" name="category" />
+
+        <label for="subcategory">SubCategory:</label>
+        <input [(ngModel)]="todo.subcategory" name="subcategory" />
+
+        <button style="background-color: rgb(23, 124, 218); color: white;" (click)="saveChanges()">Save Changes</button>
+    </form>
+</div>

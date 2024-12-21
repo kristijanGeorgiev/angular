@@ -1,0 +1,24 @@
+<div>
+    <h2>Add New Todo</h2>
+    <form (submit)="addTodo()">
+        <!-- Movie Title -->
+        <label for="title">Title:</label>
+        <input [(ngModel)]="newTodo.title" name="title" required />
+
+        <!-- Movie Year -->
+        <label for="completed">Completed:</label>
+        <input [(ngModel)]="newTodo.completed" name="completed"/>
+
+        <label for="category">Category:</label>
+        <input [(ngModel)]="newTodo.category" name="category" required />
+
+        <label for="subcategory">SubCategory:</label>
+        <input [(ngModel)]="newTodo.subcategory" name="subcategory" required />
+
+        <hr>
+        <div style="margin-top: 10px;">
+            <button type="submit">Save Todo</button>
+            <button type="button" class="back-button" (click)="goToTodoList()">Back</button>
+          </div>
+    </form>
+</div>

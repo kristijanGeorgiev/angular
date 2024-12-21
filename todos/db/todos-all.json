@@ -1,0 +1,711 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "title": "Prepare Q4 sales presentation",
+      "completed": false,
+      "category": "work",
+      "subcategory": "projects"
+    },
+    {
+      "id": "2",
+      "title": "Weekly team sync meeting",
+      "completed": true,
+      "category": "work",
+      "subcategory": "meetings"
+    },
+    {
+      "id": "3",
+      "title": "Submit expense reports",
+      "completed": false,
+      "category": "work",
+      "subcategory": "admin"
+    },
+    {
+      "id": "4",
+      "title": "Review project timeline",
+      "completed": true,
+      "category": "work",
+      "subcategory": "projects"
+    },
+    {
+      "id": "5",
+      "title": "Client presentation preparation",
+      "completed": false,
+      "category": "work",
+      "subcategory": "meetings"
+    },
+    {
+      "id": "6",
+      "title": "Update team documentation",
+      "completed": false,
+      "category": "work",
+      "subcategory": "admin"
+    },
+    {
+      "id": "7",
+      "title": "Quarterly performance reviews",
+      "completed": false,
+      "category": "work",
+      "subcategory": "deadlines"
+    },
+    {
+      "id": "8",
+      "title": "Project status report",
+      "completed": true,
+      "category": "work",
+      "subcategory": "deadlines"
+    },
+    {
+      "id": "9",
+      "title": "Team building activity planning",
+      "completed": false,
+      "category": "work",
+      "subcategory": "projects"
+    },
+    {
+      "id": "10",
+      "title": "Schedule annual physical checkup",
+      "completed": false,
+      "category": "personal",
+      "subcategory": "health"
+    },
+    {
+      "id": "11",
+      "title": "Pay credit card bill",
+      "completed": true,
+      "category": "personal",
+      "subcategory": "finance"
+    },
+    {
+      "id": "12",
+      "title": "Plan family weekend trip",
+      "completed": false,
+      "category": "personal",
+      "subcategory": "family"
+    },
+    {
+      "id": "13",
+      "title": "Morning yoga session",
+      "completed": true,
+      "category": "personal",
+      "subcategory": "health"
+    },
+    {
+      "id": "14",
+      "title": "Update monthly budget",
+      "completed": false,
+      "category": "personal",
+      "subcategory": "finance"
+    },
+    {
+      "id": "15",
+      "title": "Call parents",
+      "completed": true,
+      "category": "personal",
+      "subcategory": "family"
+    },
+    {
+      "id": "16",
+      "title": "Schedule dentist appointment",
+      "completed": false,
+      "category": "personal",
+      "subcategory": "health"
+    },
+    {
+      "id": "17",
+      "title": "Review investment portfolio",
+      "completed": false,
+      "category": "personal",
+      "subcategory": "finance"
+    },
+    {
+      "id": "18",
+      "title": "Plan sister's birthday party",
+      "completed": false,
+      "category": "personal",
+      "subcategory": "family"
+    },
+    {
+      "id": "19",
+      "title": "Clean gutters",
+      "completed": false,
+      "category": "home",
+      "subcategory": "maintenance"
+    },
+    {
+      "id": "20",
+      "title": "Weekly meal prep",
+      "completed": true,
+      "category": "home",
+      "subcategory": "chores"
+    },
+    {
+      "id": "21",
+      "title": "Buy new kitchen shelves",
+      "completed": false,
+      "category": "home",
+      "subcategory": "improvement"
+    },
+    {
+      "id": "22",
+      "title": "Vacuum all rooms",
+      "completed": true,
+      "category": "home",
+      "subcategory": "chores"
+    },
+    {
+      "id": "23",
+      "title": "Fix leaky faucet",
+      "completed": false,
+      "category": "home",
+      "subcategory": "maintenance"
+    },
+    {
+      "id": "24",
+      "title": "Paint guest bedroom",
+      "completed": false,
+      "category": "home",
+      "subcategory": "improvement"
+    },
+    {
+      "id": "25",
+      "title": "Do laundry",
+      "completed": true,
+      "category": "home",
+      "subcategory": "chores"
+    },
+    {
+      "id": "26",
+      "title": "Service HVAC system",
+      "completed": false,
+      "category": "home",
+      "subcategory": "maintenance"
+    },
+    {
+      "id": "27",
+      "title": "Organize garage",
+      "completed": false,
+      "category": "home",
+      "subcategory": "improvement"
+    },
+    {
+      "id": "28",
+      "title": "Complete online course assignment",
+      "completed": false,
+      "category": "education",
+      "subcategory": "assignments"
+    },
+    {
+      "id": "29",
+      "title": "Review study materials for certification",
+      "completed": false,
+      "category": "education",
+      "subcategory": "study"
+    },
+    {
+      "id": "30",
+      "title": "Read chapter 5 of programming book",
+      "completed": true,
+      "category": "education",
+      "subcategory": "reading"
+    },
+    {
+      "id": "31",
+      "title": "Complete practice exercises",
+      "completed": false,
+      "category": "education",
+      "subcategory": "assignments"
+    },
+    {
+      "id": "32",
+      "title": "Watch online lecture",
+      "completed": true,
+      "category": "education",
+      "subcategory": "study"
+    },
+    {
+      "id": "33",
+      "title": "Take practice test",
+      "completed": false,
+      "category": "education",
+      "subcategory": "study"
+    },
+    {
+      "id": "34",
+      "title": "Research thesis topics",
+      "completed": false,
+      "category": "education",
+      "subcategory": "research"
+    },
+    {
+      "id": "35",
+      "title": "Complete coding tutorial",
+      "completed": false,
+      "category": "education",
+      "subcategory": "skills"
+    },
+    {
+      "id": "36",
+      "title": "Write essay draft",
+      "completed": true,
+      "category": "education",
+      "subcategory": "assignments"
+    },
+    {
+      "id": "37",
+      "title": "Pick up dry cleaning",
+      "completed": false,
+      "category": "errands",
+      "subcategory": "services"
+    },
+    {
+      "id": "38",
+      "title": "Buy groceries for the week",
+      "completed": true,
+      "category": "errands",
+      "subcategory": "shopping"
+    },
+    {
+      "id": "39",
+      "title": "Renew driver's license",
+      "completed": false,
+      "category": "errands",
+      "subcategory": "appointments"
+    },
+    {
+      "id": "40",
+      "title": "Mail package at post office",
+      "completed": false,
+      "category": "errands",
+      "subcategory": "services"
+    },
+    {
+      "id": "41",
+      "title": "Buy birthday gift",
+      "completed": false,
+      "category": "errands",
+      "subcategory": "shopping"
+    },
+    {
+      "id": "42",
+      "title": "Schedule car maintenance",
+      "completed": true,
+      "category": "errands",
+      "subcategory": "appointments"
+    },
+    {
+      "id": "43",
+      "title": "Pick up prescriptions",
+      "completed": false,
+      "category": "errands",
+      "subcategory": "services"
+    },
+    {
+      "id": "44",
+      "title": "Buy office supplies",
+      "completed": true,
+      "category": "errands",
+      "subcategory": "shopping"
+    },
+    {
+      "id": "45",
+      "title": "Schedule hair appointment",
+      "completed": false,
+      "category": "errands",
+      "subcategory": "appointments"
+    },
+    {
+      "id": "46",
+      "title": "Prepare monthly sales report",
+      "completed": false,
+      "category": "work",
+      "subcategory": "deadlines"
+    },
+    {
+      "id": "47",
+      "title": "Update company website content",
+      "completed": false,
+      "category": "work",
+      "subcategory": "projects"
+    },
+    {
+      "id": "48",
+      "title": "Review job applications",
+      "completed": true,
+      "category": "work",
+      "subcategory": "admin"
+    },
+    {
+      "id": "49",
+      "title": "Organize digital files",
+      "completed": false,
+      "category": "work",
+      "subcategory": "admin"
+    },
+    {
+      "id": "50",
+      "title": "Schedule vendor meeting",
+      "completed": true,
+      "category": "work",
+      "subcategory": "meetings"
+    },
+    {
+      "id": "51",
+      "title": "Start meditation practice",
+      "completed": false,
+      "category": "personal",
+      "subcategory": "health"
+    },
+    {
+      "id": "52",
+      "title": "Set up automatic bill payments",
+      "completed": true,
+      "category": "personal",
+      "subcategory": "finance"
+    },
+    {
+      "id": "53",
+      "title": "Plan holiday gathering",
+      "completed": false,
+      "category": "personal",
+      "subcategory": "family"
+    },
+    {
+      "id": "54",
+      "title": "Start weekly exercise routine",
+      "completed": false,
+      "category": "personal",
+      "subcategory": "health"
+    },
+    {
+      "id": "55",
+      "title": "Create emergency fund",
+      "completed": false,
+      "category": "personal",
+      "subcategory": "finance"
+    },
+    {
+      "id": "56",
+      "title": "Deep clean kitchen",
+      "completed": true,
+      "category": "home",
+      "subcategory": "chores"
+    },
+    {
+      "id": "57",
+      "title": "Replace air filters",
+      "completed": false,
+      "category": "home",
+      "subcategory": "maintenance"
+    },
+    {
+      "id": "58",
+      "title": "Install new light fixtures",
+      "completed": false,
+      "category": "home",
+      "subcategory": "improvement"
+    },
+    {
+      "id": "59",
+      "title": "Clean windows",
+      "completed": true,
+      "category": "home",
+      "subcategory": "chores"
+    },
+    {
+      "id": "60",
+      "title": "Check smoke detectors",
+      "completed": false,
+      "category": "home",
+      "subcategory": "maintenance"
+    },
+    {
+      "id": "61",
+      "title": "Submit research paper",
+      "completed": false,
+      "category": "education",
+      "subcategory": "assignments"
+    },
+    {
+      "id": "62",
+      "title": "Create study schedule",
+      "completed": true,
+      "category": "education",
+      "subcategory": "study"
+    },
+    {
+      "id": "63",
+      "title": "Complete online quiz",
+      "completed": false,
+      "category": "education",
+      "subcategory": "assignments"
+    },
+    {
+      "id": "64",
+      "title": "Attend study group",
+      "completed": true,
+      "category": "education",
+      "subcategory": "study"
+    },
+    {
+      "id": "65",
+      "title": "Review course materials",
+      "completed": false,
+      "category": "education",
+      "subcategory": "study"
+    },
+    {
+      "id": "66",
+      "title": "Get car washed",
+      "completed": false,
+      "category": "errands",
+      "subcategory": "services"
+    },
+    {
+      "id": "67",
+      "title": "Buy new work clothes",
+      "completed": true,
+      "category": "errands",
+      "subcategory": "shopping"
+    },
+    {
+      "id": "68",
+      "title": "Schedule vet appointment",
+      "completed": false,
+      "category": "errands",
+      "subcategory": "appointments"
+    },
+    {
+      "id": "69",
+      "title": "Pick up alterations",
+      "completed": true,
+      "category": "errands",
+      "subcategory": "services"
+    },
+    {
+      "id": "70",
+      "title": "Buy household supplies",
+      "completed": false,
+      "category": "errands",
+      "subcategory": "shopping"
+    },
+    {
+      "id": "71",
+      "title": "Prepare client proposal",
+      "completed": false,
+      "category": "work",
+      "subcategory": "projects"
+    },
+    {
+      "id": "72",
+      "title": "Update employee handbook",
+      "completed": true,
+      "category": "work",
+      "subcategory": "admin"
+    },
+    {
+      "id": "73",
+      "title": "Schedule performance reviews",
+      "completed": false,
+      "category": "work",
+      "subcategory": "meetings"
+    },
+    {
+      "id": "74",
+      "title": "Complete safety training",
+      "completed": false,
+      "category": "work",
+      "subcategory": "deadlines"
+    },
+    {
+      "id": "75",
+      "title": "Review marketing strategy",
+      "completed": true,
+      "category": "work",
+      "subcategory": "projects"
+    },
+    {
+      "id": "76",
+      "title": "Schedule annual checkup",
+      "completed": false,
+      "category": "personal",
+      "subcategory": "health"
+    },
+    {
+      "id": "77",
+      "title": "Review insurance policies",
+      "completed": true,
+      "category": "personal",
+      "subcategory": "finance"
+    },
+    {
+      "id": "78",
+      "title": "Plan family reunion",
+      "completed": false,
+      "category": "personal",
+      "subcategory": "family"
+    },
+    {
+      "id": "79",
+      "title": "Start food journal",
+      "completed": true,
+      "category": "personal",
+      "subcategory": "health"
+    },
+    {
+      "id": "80",
+      "title": "Set up retirement account",
+      "completed": false,
+      "category": "personal",
+      "subcategory": "finance"
+    },
+    {
+      "id": "81",
+      "title": "Clean and organize basement",
+      "completed": false,
+      "category": "home",
+      "subcategory": "improvement"
+    },
+    {
+      "id": "82",
+      "title": "Reorganize closet",
+      "completed": true,
+      "category": "home",
+      "subcategory": "chores"
+    },
+    {
+      "id": "83",
+      "title": "Fix squeaky door",
+      "completed": false,
+      "category": "home",
+      "subcategory": "maintenance"
+    },
+    {
+      "id": "84",
+      "title": "Install new shower head",
+      "completed": true,
+      "category": "home",
+      "subcategory": "improvement"
+    },
+    {
+      "id": "85",
+      "title": "Research online courses",
+      "completed": false,
+      "category": "education",
+      "subcategory": "study"
+    },
+    {
+      "id": "86",
+      "title": "Complete language learning module",
+      "completed": true,
+      "category": "education",
+      "subcategory": "skills"
+    },
+    {
+      "id": "87",
+      "title": "Write blog post",
+      "completed": false,
+      "category": "work",
+      "subcategory": "projects"
+    },
+    {
+      "id": "88",
+      "title": "Update LinkedIn profile",
+      "completed": false,
+      "category": "personal",
+      "subcategory": "career"
+    },
+    {
+      "id": "89",
+      "title": "Schedule oil change",
+      "completed": true,
+      "category": "errands",
+      "subcategory": "appointments"
+    },
+    {
+      "id": "90",
+      "title": "Plan team offsite",
+      "completed": false,
+      "category": "work",
+      "subcategory": "projects"
+    },
+    {
+      "id": "91",
+      "title": "Buy new router",
+      "completed": false,
+      "category": "errands",
+      "subcategory": "shopping"
+    },
+    {
+      "id": "92",
+      "title": "Set up home office",
+      "completed": true,
+      "category": "home",
+      "subcategory": "improvement"
+    },
+    {
+      "id": "93",
+      "title": "Review quarterly goals",
+      "completed": false,
+      "category": "work",
+      "subcategory": "deadlines"
+    },
+    {
+      "id": "94",
+      "title": "Schedule dental cleaning",
+      "completed": true,
+      "category": "personal",
+      "subcategory": "health"
+    },
+    {
+      "id": "95",
+      "title": "Research vacation destinations",
+      "completed": false,
+      "category": "personal",
+      "subcategory": "family"
+    },
+    {
+      "id": "96",
+      "title": "Create weekly meal plan",
+      "completed": true,
+      "category": "home",
+      "subcategory": "chores"
+    },
+    {
+      "id": "97",
+      "title": "Submit grant application",
+      "completed": false,
+      "category": "education",
+      "subcategory": "deadlines"
+    },
+    {
+      "id": "98",
+      "title": "Organize digital photos",
+      "completed": false,
+      "category": "personal",
+      "subcategory": "admin"
+    },
+    {
+      "id": "99",
+      "title": "Update emergency contacts",
+      "completed": true,
+      "category": "personal",
+      "subcategory": "admin"
+    },
+    {
+      "id": "100",
+      "title": "Plan next quarter's budget",
+      "completed": false,
+      "category": "work",
+      "subcategory": "deadlines"
+    },
+    {
+      "id": "101",
+      "title": "This one is even fresher",
+      "completed": false,
+      "category": "N/A",
+      "subcategory": "N/A"
+    }
+  ]
+}
