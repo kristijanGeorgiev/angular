@@ -1,0 +1,25 @@
+<div *ngIf="people">
+    <h2>Edit People</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input [(ngModel)]="people.name" name="name" />
+
+        <label for="city">City:</label>
+        <input [(ngModel)]="people.city" name="city" />
+
+        <label for="age">Age:</label>
+        <input [(ngModel)]="people.age" name="age" type="number" />
+
+        <h3>Friends</h3>
+        <div *ngFor="let Friends of people.friends; let i = index">
+            <label for="Name{{i}}">Name:</label>
+            <input [(ngModel)]="people.friends[i].name" name="Name{{i}}" />
+
+            <label for="Hobbies{{i}}">Hobbies:</label>
+            <input [(ngModel)]="people.friends[i].hobbies" name="hobbies{{i}}" />
+        </div>
+
+
+        <button style="background-color: rgb(23, 124, 218); color: white;" (click)="saveChanges()">Save Changes</button>
+    </form>
+</div>

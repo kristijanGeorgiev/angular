@@ -1,0 +1,15 @@
+<div *ngIf="people">
+    <h2 style="color: rgb(0, 0, 0);">People Details</h2>
+    <p style="color: rgb(0, 0, 0);"><strong>ID:</strong> {{ people.id }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Name:</strong> {{ people.name }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>City:</strong> {{ people.city }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Age:</strong> {{ people.age }}</p>
+    <h3 style="color: rgb(0, 0, 0);">Friends</h3>
+    <ul>
+      <li *ngFor="let friends of people.friends">
+        <strong style="color: rgb(0, 0, 0);">{{ friends.name }}</strong> <strong style="color: rgb(0, 0, 0);"> {{ friends.hobbies }}</strong>
+      </li>
+    </ul>
+    <button style="background-color: rgb(24, 134, 231); color: white;" type="button" class="back-button" (click)="goToPeopleList()">Back</button>
+  </div>
+  

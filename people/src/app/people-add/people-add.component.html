@@ -1,0 +1,30 @@
+<div>
+    <h2>Add New People</h2>
+    <form (submit)="addPeople()">
+        <!-- Movie Title -->
+        <label for="name">Name:</label>
+        <input [(ngModel)]="newPeople.name" name="name" required />
+
+        <label for="city">City:</label>
+        <input [(ngModel)]="newPeople.city" name="class" required />
+
+        <!-- Movie Year -->
+        <label for="age">Age:</label>
+        <input [(ngModel)]="newPeople.age" name="age" type="number" required />
+
+        <label for="friends">Friends:</label>
+        <div *ngFor="let friends of newPeople.friends; let i = index">
+            <label for="name{{i}}">Name:</label>
+            <input [(ngModel)]="newPeople.friends[i].name" name="name{{i}}" />
+
+            <label for="hobbies{{i}}">Hobbies:</label>
+            <input [(ngModel)]="newPeople.friends[i].hobbies" name="hobbies{{i}}" />
+        </div>
+
+        <hr>
+        <div style="margin-top: 10px;">
+            <button type="submit">Save People</button>
+            <button type="button" class="back-button" (click)="goToPeopleList()">Back</button>
+          </div>
+    </form>
+</div>
