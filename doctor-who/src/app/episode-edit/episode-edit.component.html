@@ -1,0 +1,44 @@
+<div *ngIf="episode">
+    <h2>Edit Episode</h2>
+    <form>
+        <label for="title">Title:</label>
+        <input [(ngModel)]="episode.title" name="title" />
+
+        <label for="series">Series:</label>
+        <input [(ngModel)]="episode.series" name="series" type="number" />
+
+        <label for="era">Era:</label>
+        <input [(ngModel)]="episode.era" name="era" />
+
+        <label for="broadcast_date">BroadCast_Date:</label>
+        <input [(ngModel)]="episode.broadcast_date" name="broadcast_date" type="date" />
+
+        <label for="director">Director:</label>
+        <input [(ngModel)]="episode.director" name="director" />
+
+        <label for="writer">Writer:</label>
+        <input [(ngModel)]="episode.writer" name="writer" />
+
+        <label for="plot">Plot:</label>
+        <input [(ngModel)]="episode.plot" name="plot" />
+
+        <label for="doctor">Doctor:</label>
+        <input [(ngModel)]="episode.doctor.actor" name="doctor.actor" />
+        <input [(ngModel)]="episode.doctor.incarnation" name="doctor.incarnation" />
+
+        <label for="companion">Companion:</label>
+        <input [(ngModel)]="episode.companion.actor" name="companion.actor" />
+        <input [(ngModel)]="episode.companion.character" name="companion.character" />
+
+        <h3>Cast</h3>
+        <div *ngFor="let Cast of episode.cast; let i = index">
+            <label for="Actor{{i}}">Name:</label>
+            <input [(ngModel)]="episode.cast[i].actor" name="Actor{{i}}" />
+
+            <label for="Character{{i}}">Character:</label>
+            <input [(ngModel)]="episode.cast[i].character" name="character{{i}}" />
+        </div>
+
+        <button style="background-color: rgb(23, 124, 218); color: white;" (click)="saveChanges()">Save Changes</button>
+    </form>
+</div>

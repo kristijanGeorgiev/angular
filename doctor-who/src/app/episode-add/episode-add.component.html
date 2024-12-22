@@ -1,0 +1,49 @@
+<div>
+    <h2>Add New Episode</h2>
+    <form (submit)="addEpisode()">
+        <label for="title">Title:</label>
+        <input [(ngModel)]="newEpisode.title" name="title" required />
+
+        <label for="series">Series:</label>
+        <input [(ngModel)]="newEpisode.series" name="series" type="number" required />
+
+        <label for="era">Era:</label>
+        <input [(ngModel)]="newEpisode.era" name="era" required />
+
+        <label for="broadcast_date">BroadCast_Date:</label>
+        <input [(ngModel)]="newEpisode.broadcast_date" name="broadcast_date" type="date" required />
+
+        <label for="director">Director:</label>
+        <input [(ngModel)]="newEpisode.director" name="director" required />
+
+        <label for="writer">Writer:</label>
+        <input [(ngModel)]="newEpisode.writer" name="writer" required />
+
+        <label for="plot">Plot:</label>
+        <input [(ngModel)]="newEpisode.plot" name="plot" required />
+
+        <label for="doctor">Doctor:</label>
+        <input [(ngModel)]="newEpisode.doctor.actor" name="doctor.actor" required />
+        <input [(ngModel)]="newEpisode.doctor.incarnation" name="doctor.incarnation" required />
+
+        <label for="companion">Companion:</label>
+        <input [(ngModel)]="newEpisode.companion.actor" name="companion.actor" required />
+        <input [(ngModel)]="newEpisode.companion.character" name="companion.character" required />
+
+        <hr>
+
+        <label for="cast">Cast:</label>
+        <div *ngFor="let cast of newEpisode.cast; let i = index">
+            <label for="actor{{i}}">Actor:</label>
+            <input [(ngModel)]="newEpisode.cast[i].actor" name="actor{{i}}" />
+
+            <label for="character{{i}}">Character:</label>
+            <input [(ngModel)]="newEpisode.cast[i].character" name="character{{i}}" />
+        </div>
+        <hr>
+        <div style="margin-top: 10px;">
+            <button type="submit">Save Episode</button>
+            <button type="button" class="back-button" (click)="goToEpisodeList()">Back</button>
+          </div>
+    </form>
+</div>
