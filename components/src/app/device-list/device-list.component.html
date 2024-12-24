@@ -1,0 +1,57 @@
+<br>
+<div>
+    <div class="filter-container">
+        <label for="categoryfilter">Categories:</label>
+  <select
+    [(ngModel)]="categoryfilter"
+    (change)="applyFilters()"
+    name="categoryfilter"
+    class="select-field">
+    <option value="">All Categories</option>
+    <option *ngFor="let category of combocategories" [value]="category">
+      {{ category }}
+    </option>
+  </select>
+  <label for="devicetypefilter">DeviceTypes:</label>
+  <select
+    [(ngModel)]="devicetypefilter"
+    (change)="applyFilters()"
+    name="devicetypefilter"
+    class="select-field">
+    <option value="">All DeviceTypes</option>
+    <option *ngFor="let devicetype of combodevicetypes" [value]="devicetype">
+      {{ devicetype }}
+    </option>
+  </select>
+    </div>
+    <button style="background-color: rgb(0, 192, 250); color: white;"><a routerLink="/device-add" class="add-device">Add New Device</a></button>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th (click)="sortByID()">ID</th>
+                <th (click)="sortByCategory()">Category</th>
+                <th>DeviceType</th>
+                <th>Model</th>
+                <th>Price</th>
+                <th>Warranty</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let device of devices">
+                <td>{{ device.id }}</td>
+                <td>{{ device.category }}</td>
+                <td>{{ device.devicetype }}</td>
+                <td>{{ device.model }}</td>
+                <td>{{ device.price }}</td>
+                <td>{{  device.warranty }}</td>
+                <td>
+                    <button style="background-color: blue; color: white;" (click)="viewDevicesDetails(device)">View</button>
+                    <button style="background-color: rgb(21, 177, 15); color: white;" (click)="editDevices(device)">Edit</button>
+                    <button style="background-color: red; color: white;" (click)="deleteDevices(device)">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,26 @@
+<div>
+    <h2>Add New Devices</h2>
+    <form (submit)="addDevices()">
+        <!-- Movie Title -->
+        <label for="category">Category:</label>
+        <input [(ngModel)]="newDevices.category" name="title" required />
+
+        <label for="devicetype">DeviceType:</label>
+        <input [(ngModel)]="newDevices.devicetype" name="devicetype" required />
+
+        <label for="model">Model:</label>
+        <input [(ngModel)]="newDevices.model" name="model" required />
+
+        <label for="price">Price:</label>
+        <input [(ngModel)]="newDevices.price" name="price" type="number" />
+
+        <label for="warranty">Warranty:</label>
+        <input [(ngModel)]="newDevices.warranty" name="warranty" type="number" />
+
+        <hr>
+        <div style="margin-top: 10px;">
+            <button type="submit">Save Episode</button>
+            <button type="button" class="back-button" (click)="goToEpisodeList()">Back</button>
+          </div>
+    </form>
+</div>

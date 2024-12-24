@@ -1,0 +1,13 @@
+<div *ngIf="device">
+    <h2 style="color: rgb(0, 0, 0);">Device Details</h2>
+    <p style="color: rgb(0, 0, 0);"><strong>ID:</strong> {{ device.id }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Category:</strong> {{ device.category}}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>DeviceType:</strong> {{ device.devicetype }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Model:</strong> {{ device.model }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Price:</strong> {{ device.price }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Warranty:</strong> {{ device.warranty }}</p>
+    <div style="margin-top: 10px;">
+        <button style="background-color: firebrick; color: white;" type="button" class="back-button" (click)="goToDeviceList()">Back</button>
+      </div>
+  </div>
+  

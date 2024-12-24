@@ -1,0 +1,191 @@
+{
+  "devices": [
+    {
+      "id": 1,
+      "category": "Smartphone",
+      "devicetype": "Mobile",
+      "model": "Galaxy S23",
+      "price": 799.99,
+      "warranty": "2 years"
+    },
+    {
+      "id": 2,
+      "category": "Smartphone",
+      "devicetype": "Mobile",
+      "model": "iPhone 15",
+      "price": 999.99,
+      "warranty": "1 year"
+    },
+    {
+      "id": 3,
+      "category": "Tablet",
+      "devicetype": "Mobile",
+      "model": "iPad Pro",
+      "price": 1099.99,
+      "warranty": "2 years"
+    },
+    {
+      "id": 4,
+      "category": "Smartwatch",
+      "devicetype": "Wearable",
+      "model": "Apple Watch Series 8",
+      "price": 399.99,
+      "warranty": "1 year"
+    },
+    {
+      "id": 5,
+      "category": "Laptop",
+      "devicetype": "Computer",
+      "model": "MacBook Pro 16\"",
+      "price": 2399.99,
+      "warranty": "1 year"
+    },
+    {
+      "id": 6,
+      "category": "Smartphone",
+      "devicetype": "Mobile",
+      "model": "Pixel 8",
+      "price": 899.99,
+      "warranty": "2 years"
+    },
+    {
+      "id": 7,
+      "category": "Smartphone",
+      "devicetype": "Mobile",
+      "model": "OnePlus 11",
+      "price": 749.99,
+      "warranty": "1 year"
+    },
+    {
+      "id": 8,
+      "category": "Laptop",
+      "devicetype": "Computer",
+      "model": "Dell XPS 13",
+      "price": 1299.99,
+      "warranty": "1 year"
+    },
+    {
+      "id": 9,
+      "category": "Tablet",
+      "devicetype": "Mobile",
+      "model": "Microsoft Surface Pro 9",
+      "price": 1499.99,
+      "warranty": "2 years"
+    },
+    {
+      "id": 10,
+      "category": "Smartwatch",
+      "devicetype": "Wearable",
+      "model": "Samsung Galaxy Watch 6",
+      "price": 299.99,
+      "warranty": "1 year"
+    },
+    {
+      "id": 11,
+      "category": "Smartphone",
+      "devicetype": "Mobile",
+      "model": "Samsung Galaxy A54",
+      "price": 449.99,
+      "warranty": "1 year"
+    },
+    {
+      "id": 12,
+      "category": "Laptop",
+      "devicetype": "Computer",
+      "model": "HP Spectre x360",
+      "price": 1599.99,
+      "warranty": "1 year"
+    },
+    {
+      "id": 13,
+      "category": "Smartphone",
+      "devicetype": "Mobile",
+      "model": "Xiaomi Mi 13",
+      "price": 649.99,
+      "warranty": "2 years"
+    },
+    {
+      "id": 14,
+      "category": "Tablet",
+      "devicetype": "Mobile",
+      "model": "Samsung Galaxy Tab S8",
+      "price": 899.99,
+      "warranty": "2 years"
+    },
+    {
+      "id": 15,
+      "category": "Smartwatch",
+      "devicetype": "Wearable",
+      "model": "Garmin Forerunner 955",
+      "price": 499.99,
+      "warranty": "1 year"
+    },
+    {
+      "id": 16,
+      "category": "Smartphone",
+      "devicetype": "Mobile",
+      "model": "Motorola Edge+",
+      "price": 799.99,
+      "warranty": "1 year"
+    },
+    {
+      "id": 17,
+      "category": "Laptop",
+      "devicetype": "Computer",
+      "model": "Lenovo ThinkPad X1 Carbon",
+      "price": 1899.99,
+      "warranty": "1 year"
+    },
+    {
+      "id": 18,
+      "category": "Tablet",
+      "devicetype": "Mobile",
+      "model": "Lenovo Tab P11 Pro",
+      "price": 499.99,
+      "warranty": "2 years"
+    },
+    {
+      "id": 19,
+      "category": "Smartwatch",
+      "devicetype": "Wearable",
+      "model": "Fitbit Versa 4",
+      "price": 229.99,
+      "warranty": "1 year"
+    },
+    {
+      "id": 20,
+      "category": "Smartphone",
+      "devicetype": "Mobile",
+      "model": "Oppo Find X5 Pro",
+      "price": 899.99,
+      "warranty": "2 years"
+    },
+    {
+      "id": 21,
+      "category": "Smartphone",
+      "devicetype": "Mobile",
+      "model": "Asus Zenfone 9",
+      "price": 749.99,
+      "warranty": "2 years"
+    },
+    {
+      "id": 22,
+      "category": "Tablet",
+      "devicetype": "Mobile",
+      "model": "Amazon Fire HD 10",
+      "price": 149.99,
+      "warranty": "1 year"
+    }
+  ],
+  "categories": [
+    "Smartphone",
+    "Tablet",
+    "Smartwatch",
+    "Laptop"
+  ],
+  "devicetypes": [
+    "Mobile",
+    "Wearable",
+    "Computer"
+  ]
+}

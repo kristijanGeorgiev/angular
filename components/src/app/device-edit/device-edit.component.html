@@ -1,0 +1,21 @@
+<div *ngIf="device">
+    <h2>Edit Device</h2>
+    <form>
+        <label for="category">Category:</label>
+        <input [(ngModel)]="device.category" name="category" />
+
+        <label for="devicetype">DeviceType:</label>
+        <input [(ngModel)]="device.devicetype" name="devicetype" />
+
+        <label for="model">Model:</label>
+        <input [(ngModel)]="device.model" name="model" />
+
+        <label for="price">Price:</label>
+        <input [(ngModel)]="device.price" name="price" type="number" />
+
+        <label for="warranty">Warranty:</label>
+        <input [(ngModel)]="device.warranty" name="warranty" type="number" />
+
+        <button style="background-color: rgb(23, 124, 218); color: white;" (click)="saveChanges()">Save Changes</button>
+    </form>
+</div>
