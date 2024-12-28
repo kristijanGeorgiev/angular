@@ -1,0 +1,17 @@
+<div *ngIf="books">
+    <h2 style="color: rgb(0, 0, 0);">Books Details</h2>
+    <p style="color: rgb(0, 0, 0);"><strong>ID:</strong> {{ books.id }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Title:</strong> {{ books.title }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Author:</strong> {{ books.author }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Isbn:</strong> {{ books.isbn }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>PublishedYear:</strong> {{ books.publishedYear }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Publisher:</strong> {{ books.publisher }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Available:</strong> {{ books.available }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Condition:</strong> {{ books.condition }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Language:</strong> {{ books.language }}</p>
+
+    <div style="margin-top: 10px;">
+        <button style="background-color: firebrick; color: white;" type="button" class="back-button" (click)="goToBooksList()">Back</button>
+      </div>
+  </div>
+  

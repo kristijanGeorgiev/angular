@@ -1,0 +1,36 @@
+<div>
+    <h2>Add New Books</h2>
+    <form (submit)="addBooks()">
+        <!-- Movie Title -->
+        <label for="title">Title:</label>
+        <input [(ngModel)]="newBooks.title" name="title" required />
+
+        <label for="author">Author:</label>
+        <input [(ngModel)]="newBooks.author" name="author" />
+
+        <label for="isbn">Isbn:</label>
+        <input [(ngModel)]="newBooks.isbn" name="isbn" />
+
+        <label for="publishedyear">PublishedYear:</label>
+        <input [(ngModel)]="newBooks.publishedYear" name="publishedyear" type="number" />
+
+        <label for="publisher">Publisher:</label>
+        <input [(ngModel)]="newBooks.publisher" name="publisher" />
+
+        <!-- Movie Year -->
+        <label for="available">Available:</label>
+        <input [(ngModel)]="newBooks.available" name="available" required />
+
+        <label for="condition">Condition:</label>
+        <input [(ngModel)]="newBooks.condition" name="condition" />
+
+        <!-- Director -->
+        <label for="language">Language:</label>
+        <input [(ngModel)]="newBooks.language" name="language" required />
+        <hr>
+        <div style="margin-top: 10px;">
+            <button type="submit">Save Episode</button>
+            <button type="button" class="back-button" (click)="goToBooksList()">Back</button>
+          </div>
+    </form>
+</div>
