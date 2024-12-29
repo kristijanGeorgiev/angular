@@ -1,0 +1,9 @@
+<div *ngIf="categories">
+    <h2>Edit Categories</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input [(ngModel)]="categories.name" name="name" />
+
+        <button style="background-color: rgb(23, 124, 218); color: white;" (click)="saveChanges()">Save Changes</button>
+    </form>
+</div>

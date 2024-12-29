@@ -1,0 +1,9 @@
+<div *ngIf="categories">
+    <h2 style="color: rgb(0, 0, 0);">Categories Details</h2>
+    <p style="color: rgb(0, 0, 0);"><strong>ID:</strong> {{ categories.id }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Name:</strong> {{ categories.name }}</p>
+    <div style="margin-top: 10px;">
+        <button style="background-color: firebrick; color: white;" type="button" class="back-button" (click)="goToCategoriesList()">Back</button>
+      </div>
+  </div>
+  

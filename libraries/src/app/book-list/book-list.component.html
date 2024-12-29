@@ -1,0 +1,76 @@
+<br>
+<div>
+    <div class="filter-container">
+        <label for="titleFilter">Title:</label>
+        <input [(ngModel)]="titlefilter" (input)='applyFilters()' name="titlefilter" class="input-field"/>
+        <label for="titleFilter">Author:</label>
+        <input [(ngModel)]="authorfilter" (input)='applyFilters()' name="authorfilter" class="input-field"/>
+  <label for="publishers">Publishers:</label>
+  <select
+    [(ngModel)]="publishersfilter"
+    (change)="applyFilters()"
+    name="publishersfilter"
+    class="select-field">
+    <option value="">All Publishers</option>
+    <option *ngFor="let publishers of combopublishers" [value]="publishers.name">
+      {{ publishers.name }}
+    </option>
+  </select>
+  <label for="categories">Categories:</label>
+  <select
+    [(ngModel)]="categoriesfilter"
+    (change)="applyFilters()"
+    name="categoriesfilter"
+    class="select-field">
+    <option value="">All Categories</option>
+    <option *ngFor="let categories of combocategories" [value]="categories.name">
+      {{ categories.name }}
+    </option>
+  </select>
+    </div>
+    <button style="background-color: rgb(0, 192, 250); color: white;"><a routerLink="/book-add" class="add-book">Add New Books</a></button>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th (click)="sortByID()">ID</th>
+                <th (click)="sortByTitle()">Title</th>
+                <th>Author</th>
+                <th>isbn</th>
+                <th>PublishedYear</th>
+                <th>Publisher</th>
+                <th>Categories</th>
+                <th>Status</th>
+                <th>Condtion</th>
+                <th>Language</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let book of books">
+                <td>{{ book.id }}</td>
+                <td>{{ book.title }}</td>
+                <td>{{ book.author }}</td>
+                <td>{{ book.isbn }}</td>
+                <td>{{ book.publishedYear }}</td>
+                <td>{{ book.publisher }}</td>
+                <td>{{ book.categories }}</td>
+                <td>
+                    <span *ngIf="book.available">
+                      Available
+                    </span>
+                    <span *ngIf="!book.available">
+                       Borrowed
+                    </span>
+                  </td>
+                <td>{{ book.condition }}</td>
+                <td>{{ book.language }}</td>
+                <td>
+                    <button style="background-color: blue; color: white;" (click)="viewBooksDetails(book)">View</button>
+                    <button style="background-color: rgb(21, 177, 15); color: white;" (click)="editBooks(book)">Edit</button>
+                    <button style="background-color: red; color: white;" (click)="deleteBooks(book)">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

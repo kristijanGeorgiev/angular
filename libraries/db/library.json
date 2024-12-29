@@ -1,0 +1,1357 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "isbn": "978-0743273565",
+      "publishedYear": 1925,
+      "publisher": "Scribner",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Literary Fiction"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "English"
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "isbn": "978-0451524935",
+      "publishedYear": 1949,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Fiction",
+        "Science Fiction",
+        "Dystopian"
+      ],
+      "available": false,
+      "condition": "Fair",
+      "language": "English"
+    },
+    {
+      "id": 3,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "publishedYear": 1813,
+      "publisher": "Vintage Classics",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Romance"
+      ],
+      "available": true,
+      "condition": "Poor",
+      "language": "English"
+    },
+    {
+      "id": 4,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "isbn": "978-0547928227",
+      "publishedYear": 1937,
+      "publisher": "Houghton Mifflin",
+      "categories": [
+        "Fiction",
+        "Fantasy"
+      ],
+      "available": true,
+      "condition": "New",
+      "language": "English"
+    },
+    {
+      "id": 5,
+      "title": "Les Misérables",
+      "author": "Victor Hugo",
+      "isbn": "978-0451419439",
+      "publishedYear": 1862,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Historical Fiction"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "French"
+    },
+    {
+      "id": 6,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "isbn": "978-0446310789",
+      "publishedYear": 1960,
+      "publisher": "Grand Central",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Literary Fiction"
+      ],
+      "available": false,
+      "condition": "Good",
+      "language": "English"
+    },
+    {
+      "id": 7,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "isbn": "978-0316769488",
+      "publishedYear": 1951,
+      "publisher": "Little, Brown",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Literary Fiction"
+      ],
+      "available": true,
+      "condition": "Fair",
+      "language": "English"
+    },
+    {
+      "id": 8,
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "isbn": "978-0618640157",
+      "publishedYear": 1954,
+      "publisher": "Houghton Mifflin",
+      "categories": [
+        "Fiction",
+        "Fantasy"
+      ],
+      "available": true,
+      "condition": "New",
+      "language": "English"
+    },
+    {
+      "id": 9,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "isbn": "978-0060850524",
+      "publishedYear": 1932,
+      "publisher": "Harper Perennial",
+      "categories": [
+        "Fiction",
+        "Science Fiction",
+        "Dystopian"
+      ],
+      "available": false,
+      "condition": "Good",
+      "language": "English"
+    },
+    {
+      "id": 10,
+      "title": "The Odyssey",
+      "author": "Homer",
+      "publishedYear": -800,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Classics",
+        "Poetry",
+        "Epic"
+      ],
+      "available": true,
+      "condition": "Fair",
+      "language": "English"
+    },
+    {
+      "id": 11,
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "isbn": "978-0142437209",
+      "publishedYear": 1847,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Romance"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "English"
+    },
+    {
+      "id": 12,
+      "title": "The Diary of a Young Girl",
+      "author": "Anne Frank",
+      "isbn": "978-0553577129",
+      "publishedYear": 1947,
+      "publisher": "Bantam",
+      "categories": [
+        "Non-fiction",
+        "Biography",
+        "History"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "English"
+    },
+    {
+      "id": 13,
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "publishedYear": 1890,
+      "publisher": "Vintage Classics",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Gothic"
+      ],
+      "available": false,
+      "condition": "Poor",
+      "language": "English"
+    },
+    {
+      "id": 14,
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "isbn": "978-0060883287",
+      "publishedYear": 1967,
+      "publisher": "Harper Perennial",
+      "categories": [
+        "Fiction",
+        "Magical Realism",
+        "Literary Fiction"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "Spanish"
+    },
+    {
+      "id": 15,
+      "title": "The Divine Comedy",
+      "author": "Dante Alighieri",
+      "publishedYear": 1320,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Poetry",
+        "Classics"
+      ],
+      "available": true,
+      "condition": "Fair",
+      "language": "Italian"
+    },
+    {
+      "id": 16,
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "isbn": "978-0374528379",
+      "publishedYear": 1880,
+      "publisher": "Farrar, Straus and Giroux",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Literary Fiction"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "Russian"
+    },
+    {
+      "id": 17,
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "publishedYear": 1605,
+      "publisher": "Vintage Classics",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Adventure"
+      ],
+      "available": true,
+      "condition": "Poor",
+      "language": "Spanish"
+    },
+    {
+      "id": 18,
+      "title": "The Tale of Genji",
+      "author": "Murasaki Shikibu",
+      "publishedYear": 1008,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Fiction",
+        "Classics"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "Japanese"
+    },
+    {
+      "id": 19,
+      "title": "The Metamorphosis",
+      "author": "Franz Kafka",
+      "isbn": "978-0553213690",
+      "publishedYear": 1915,
+      "publisher": "Bantam",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Literary Fiction"
+      ],
+      "available": false,
+      "condition": "Fair",
+      "language": "German"
+    },
+    {
+      "id": 20,
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "isbn": "978-0143039990",
+      "publishedYear": 1869,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Historical Fiction"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "Russian"
+    },
+    {
+      "id": 21,
+      "title": "Ulysses",
+      "author": "James Joyce",
+      "isbn": "978-0679722762",
+      "publishedYear": 1922,
+      "publisher": "Vintage",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Literary Fiction"
+      ],
+      "available": true,
+      "condition": "Fair",
+      "language": "English"
+    },
+    {
+      "id": 22,
+      "title": "The Count of Monte Cristo",
+      "author": "Alexandre Dumas",
+      "isbn": "978-0140449266",
+      "publishedYear": 1844,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Adventure"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "French"
+    },
+    {
+      "id": 23,
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "isbn": "978-0143058142",
+      "publishedYear": 1866,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Literary Fiction"
+      ],
+      "available": false,
+      "condition": "Good",
+      "language": "Russian"
+    },
+    {
+      "id": 24,
+      "title": "The Canterbury Tales",
+      "author": "Geoffrey Chaucer",
+      "publishedYear": 1400,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Poetry",
+        "Classics"
+      ],
+      "available": true,
+      "condition": "Poor",
+      "language": "English"
+    },
+    {
+      "id": 25,
+      "title": "Madame Bovary",
+      "author": "Gustave Flaubert",
+      "isbn": "978-0143106494",
+      "publishedYear": 1856,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Literary Fiction"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "French"
+    },
+    {
+      "id": 26,
+      "title": "The Scarlet Letter",
+      "author": "Nathaniel Hawthorne",
+      "isbn": "978-0142437261",
+      "publishedYear": 1850,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Historical Fiction"
+      ],
+      "available": true,
+      "condition": "Fair",
+      "language": "English"
+    },
+    {
+      "id": 27,
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "isbn": "978-0142437247",
+      "publishedYear": 1851,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Adventure"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "English"
+    },
+    {
+      "id": 28,
+      "title": "The Iliad",
+      "author": "Homer",
+      "publishedYear": -762,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Classics",
+        "Poetry",
+        "Epic"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "English"
+    },
+    {
+      "id": 29,
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "isbn": "978-0141439471",
+      "publishedYear": 1818,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Gothic",
+        "Science Fiction"
+      ],
+      "available": false,
+      "condition": "Fair",
+      "language": "English"
+    },
+    {
+      "id": 30,
+      "title": "The Grapes of Wrath",
+      "author": "John Steinbeck",
+      "isbn": "978-0143039433",
+      "publishedYear": 1939,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Historical Fiction"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "English"
+    },
+    {
+      "id": 31,
+      "title": "Heart of Darkness",
+      "author": "Joseph Conrad",
+      "isbn": "978-0141441672",
+      "publishedYear": 1899,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Literary Fiction"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "English"
+    },
+    {
+      "id": 32,
+      "title": "A Tale of Two Cities",
+      "author": "Charles Dickens",
+      "isbn": "978-0141439600",
+      "publishedYear": 1859,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Historical Fiction"
+      ],
+      "available": true,
+      "condition": "Fair",
+      "language": "English"
+    },
+    {
+      "id": 33,
+      "title": "The Trial",
+      "author": "Franz Kafka",
+      "isbn": "978-0805209990",
+      "publishedYear": 1925,
+      "publisher": "Schocken",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Literary Fiction"
+      ],
+      "available": false,
+      "condition": "Good",
+      "language": "German"
+    },
+    {
+      "id": 34,
+      "title": "The Prince",
+      "author": "Niccolò Machiavelli",
+      "publishedYear": 1532,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Non-fiction",
+        "Philosophy",
+        "Politics"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "Italian"
+    },
+    {
+      "id": 35,
+      "title": "The Republic",
+      "author": "Plato",
+      "publishedYear": -380,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Non-fiction",
+        "Philosophy"
+      ],
+      "available": true,
+      "condition": "Fair",
+      "language": "English"
+    },
+    {
+      "id": 36,
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "isbn": "978-0143035008",
+      "publishedYear": 1877,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Literary Fiction",
+        "Romance"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "Russian"
+    },
+    {
+      "id": 37,
+      "title": "The Adventures of Huckleberry Finn",
+      "author": "Mark Twain",
+      "isbn": "978-0142437179",
+      "publishedYear": 1884,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Adventure"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "English"
+    },
+    {
+      "id": 38,
+      "title": "The Art of War",
+      "author": "Sun Tzu",
+      "publishedYear": -500,
+      "publisher": "Oxford University Press",
+      "categories": [
+        "Non-fiction",
+        "Philosophy",
+        "Military"
+      ],
+      "available": true,
+      "condition": "New",
+      "language": "English"
+    },
+    {
+      "id": 39,
+      "title": "The Old Man and the Sea",
+      "author": "Ernest Hemingway",
+      "isbn": "978-0684801223",
+      "publishedYear": 1952,
+      "publisher": "Scribner",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Literary Fiction"
+      ],
+      "available": false,
+      "condition": "Fair",
+      "language": "English"
+    },
+    {
+      "id": 40,
+      "title": "The Little Prince",
+      "author": "Antoine de Saint-Exupéry",
+      "isbn": "978-0156012195",
+      "publishedYear": 1943,
+      "publisher": "Harcourt",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Children's Literature"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "French"
+    },
+    {
+      "id": 41,
+      "title": "The Bell Jar",
+      "author": "Sylvia Plath",
+      "isbn": "978-0060837020",
+      "publishedYear": 1963,
+      "publisher": "Harper Perennial",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Literary Fiction"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "English"
+    },
+    {
+      "id": 42,
+      "title": "Lolita",
+      "author": "Vladimir Nabokov",
+      "isbn": "978-0679723165",
+      "publishedYear": 1955,
+      "publisher": "Vintage",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Literary Fiction"
+      ],
+      "available": false,
+      "condition": "Poor",
+      "language": "English"
+    },
+    {
+      "id": 43,
+      "title": "The Master and Margarita",
+      "author": "Mikhail Bulgakov",
+      "isbn": "978-0679760801",
+      "publishedYear": 1967,
+      "publisher": "Vintage",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Magical Realism"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "Russian"
+    },
+    {
+      "id": 44,
+      "title": "The Stranger",
+      "author": "Albert Camus",
+      "isbn": "978-0679720201",
+      "publishedYear": 1942,
+      "publisher": "Vintage",
+      "categories": [
+        "Fiction",
+        "Classics",
+        "Philosophy"
+      ],
+      "available": true,
+      "condition": "Fair",
+      "language": "French"
+    },
+    {
+      "id": 45,
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "isbn": "978-1451673319",
+      "publishedYear": 1953,
+      "publisher": "Simon & Schuster",
+      "categories": [
+        "Fiction",
+        "Science Fiction",
+        "Dystopian"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "English"
+    },
+    {
+      "id": 46,
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "isbn": "978-0307387899",
+      "publishedYear": 2006,
+      "publisher": "Vintage",
+      "categories": [
+        "Fiction",
+        "Post-Apocalyptic",
+        "Literary Fiction"
+      ],
+      "available": true,
+      "condition": "New",
+      "language": "English"
+    },
+    {
+      "id": 47,
+      "title": "The Name of the Wind",
+      "author": "Patrick Rothfuss",
+      "isbn": "978-0756404741",
+      "publishedYear": 2007,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Fiction",
+        "Fantasy"
+      ],
+      "available": false,
+      "condition": "Good",
+      "language": "English"
+    },
+    {
+      "id": 48,
+      "title": "The Girl with the Dragon Tattoo",
+      "author": "Stieg Larsson",
+      "isbn": "978-0307454546",
+      "publishedYear": 2005,
+      "publisher": "Vintage",
+      "categories": [
+        "Fiction",
+        "Mystery",
+        "Thriller"
+      ],
+      "available": true,
+      "condition": "Fair",
+      "language": "Swedish"
+    },
+    {
+      "id": 49,
+      "title": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "isbn": "978-0439023481",
+      "publishedYear": 2008,
+      "publisher": "Scholastic",
+      "categories": [
+        "Fiction",
+        "Young Adult",
+        "Dystopian"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "English"
+    },
+    {
+      "id": 50,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "isbn": "978-0062315007",
+      "publishedYear": 1988,
+      "publisher": "Harper",
+      "categories": [
+        "Fiction",
+        "Philosophy",
+        "Fantasy"
+      ],
+      "available": false,
+      "condition": "Good",
+      "language": "Portuguese"
+    },
+    {
+      "id": 51,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "isbn": "978-0307474278",
+      "publishedYear": 2003,
+      "publisher": "Vintage",
+      "categories": [
+        "Fiction",
+        "Mystery",
+        "Thriller"
+      ],
+      "available": true,
+      "condition": "Poor",
+      "language": "English"
+    },
+    {
+      "id": 52,
+      "title": "Life of Pi",
+      "author": "Yann Martel",
+      "isbn": "978-0156027328",
+      "publishedYear": 2001,
+      "publisher": "Harcourt",
+      "categories": [
+        "Fiction",
+        "Adventure",
+        "Philosophy"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "English"
+    },
+    {
+      "id": 53,
+      "title": "The Kite Runner",
+      "author": "Khaled Hosseini",
+      "isbn": "978-1594631931",
+      "publishedYear": 2003,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Fiction",
+        "Historical Fiction"
+      ],
+      "available": true,
+      "condition": "New",
+      "language": "English"
+    },
+    {
+      "id": 54,
+      "title": "The Brief Wondrous Life of Oscar Wao",
+      "author": "Junot Díaz",
+      "isbn": "978-1594483295",
+      "publishedYear": 2007,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Fiction",
+        "Literary Fiction"
+      ],
+      "available": false,
+      "condition": "Good",
+      "language": "English"
+    },
+    {
+      "id": 55,
+      "title": "Cloud Atlas",
+      "author": "David Mitchell",
+      "isbn": "978-0375507250",
+      "publishedYear": 2004,
+      "publisher": "Random House",
+      "categories": [
+        "Fiction",
+        "Science Fiction",
+        "Literary Fiction"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "English"
+    },
+    {
+      "id": 56,
+      "title": "Never Let Me Go",
+      "author": "Kazuo Ishiguro",
+      "isbn": "978-1400078776",
+      "publishedYear": 2005,
+      "publisher": "Vintage",
+      "categories": [
+        "Fiction",
+        "Science Fiction",
+        "Literary Fiction"
+      ],
+      "available": true,
+      "condition": "Fair",
+      "language": "English"
+    },
+    {
+      "id": 57,
+      "title": "American Gods",
+      "author": "Neil Gaiman",
+      "isbn": "978-0063081918",
+      "publishedYear": 2001,
+      "publisher": "Harper",
+      "categories": [
+        "Fiction",
+        "Fantasy",
+        "Mythology"
+      ],
+      "available": false,
+      "condition": "Good",
+      "language": "English"
+    },
+    {
+      "id": 58,
+      "title": "The Shadow of the Wind",
+      "author": "Carlos Ruiz Zafón",
+      "isbn": "978-0143034902",
+      "publishedYear": 2001,
+      "publisher": "Penguin Books",
+      "categories": [
+        "Fiction",
+        "Mystery",
+        "Historical Fiction"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "Spanish"
+    },
+    {
+      "id": 59,
+      "title": "The Goldfinch",
+      "author": "Donna Tartt",
+      "isbn": "978-0316055437",
+      "publishedYear": 2013,
+      "publisher": "Little, Brown",
+      "categories": [
+        "Fiction",
+        "Literary Fiction"
+      ],
+      "available": true,
+      "condition": "New",
+      "language": "English"
+    },
+    {
+      "id": 60,
+      "title": "The Handmaid's Tale",
+      "author": "Margaret Atwood",
+      "isbn": "978-0385490818",
+      "publishedYear": 1985,
+      "publisher": "Vintage",
+      "categories": [
+        "Fiction",
+        "Science Fiction",
+        "Dystopian"
+      ],
+      "available": false,
+      "condition": "Good",
+      "language": "English"
+    },
+    {
+      "id": 61,
+      "title": "Wolf Hall",
+      "author": "Hilary Mantel",
+      "isbn": "978-0312429980",
+      "publishedYear": 2009,
+      "publisher": "Picador",
+      "categories": [
+        "Fiction",
+        "Historical Fiction"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "English"
+    },
+    {
+      "id": 62,
+      "title": "The Wind-Up Bird Chronicle",
+      "author": "Haruki Murakami",
+      "isbn": "978-0679775430",
+      "publishedYear": 1994,
+      "publisher": "Vintage",
+      "categories": [
+        "Fiction",
+        "Magical Realism",
+        "Literary Fiction"
+      ],
+      "available": true,
+      "condition": "Fair",
+      "language": "Japanese"
+    },
+    {
+      "id": 63,
+      "title": "The God of Small Things",
+      "author": "Arundhati Roy",
+      "isbn": "978-0812979657",
+      "publishedYear": 1997,
+      "publisher": "Random House",
+      "categories": [
+        "Fiction",
+        "Literary Fiction"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "English"
+    },
+    {
+      "id": 64,
+      "title": "The Book Thief",
+      "author": "Markus Zusak",
+      "isbn": "978-0375842207",
+      "publishedYear": 2005,
+      "publisher": "Random House",
+      "categories": [
+        "Fiction",
+        "Historical Fiction",
+        "Young Adult"
+      ],
+      "available": false,
+      "condition": "Good",
+      "language": "English"
+    },
+    {
+      "id": 65,
+      "title": "The Road Less Traveled",
+      "author": "M. Scott Peck",
+      "isbn": "978-0743243155",
+      "publishedYear": 1978,
+      "publisher": "Scribner",
+      "categories": [
+        "Non-fiction",
+        "Psychology",
+        "Self Help"
+      ],
+      "available": true,
+      "condition": "Poor",
+      "language": "English"
+    },
+    {
+      "id": 66,
+      "title": "A Brief History of Time",
+      "author": "Stephen Hawking",
+      "isbn": "978-0553380163",
+      "publishedYear": 1988,
+      "publisher": "Bantam",
+      "categories": [
+        "Non-fiction",
+        "Science",
+        "Physics"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "English"
+    },
+    {
+      "id": 67,
+      "title": "The Selfish Gene",
+      "author": "Richard Dawkins",
+      "isbn": "978-0198788607",
+      "publishedYear": 1976,
+      "publisher": "Oxford University Press",
+      "categories": [
+        "Non-fiction",
+        "Science",
+        "Biology"
+      ],
+      "available": true,
+      "condition": "New",
+      "language": "English"
+    },
+    {
+      "id": 68,
+      "title": "In Cold Blood",
+      "author": "Truman Capote",
+      "isbn": "978-0679745587",
+      "publishedYear": 1966,
+      "publisher": "Vintage",
+      "categories": [
+        "Non-fiction",
+        "True Crime",
+        "Literary Fiction"
+      ],
+      "available": false,
+      "condition": "Fair",
+      "language": "English"
+    },
+    {
+      "id": 69,
+      "title": "The Emperor of All Maladies",
+      "author": "Siddhartha Mukherjee",
+      "isbn": "978-1439170915",
+      "publishedYear": 2010,
+      "publisher": "Scribner",
+      "categories": [
+        "Non-fiction",
+        "Science",
+        "History"
+      ],
+      "available": true,
+      "condition": "Good",
+      "language": "English"
+    },
+    {
+      "id": 70,
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "isbn": "978-0062316097",
+      "publishedYear": 2011,
+      "publisher": "Harper",
+      "categories": [
+        "Non-fiction",
+        "History",
+        "Science"
+      ],
+      "available": true,
+      "condition": "New",
+      "language": "English"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Fiction"
+    },
+    {
+      "id": 2,
+      "name": "Classics"
+    },
+    {
+      "id": 3,
+      "name": "Literary Fiction"
+    },
+    {
+      "id": 4,
+      "name": "Science Fiction"
+    },
+    {
+      "id": 5,
+      "name": "Dystopian"
+    },
+    {
+      "id": 6,
+      "name": "Romance"
+    },
+    {
+      "id": 7,
+      "name": "Fantasy"
+    },
+    {
+      "id": 8,
+      "name": "Historical Fiction"
+    },
+    {
+      "id": 9,
+      "name": "Non-fiction"
+    },
+    {
+      "id": 10,
+      "name": "Biography"
+    },
+    {
+      "id": 11,
+      "name": "Poetry"
+    },
+    {
+      "id": 12,
+      "name": "Philosophy"
+    },
+    {
+      "id": 13,
+      "name": "Adventure"
+    },
+    {
+      "id": 14,
+      "name": "Gothic"
+    },
+    {
+      "id": 15,
+      "name": "Magical Realism"
+    },
+    {
+      "id": 16,
+      "name": "Epic"
+    },
+    {
+      "id": 17,
+      "name": "Children's Literature"
+    },
+    {
+      "id": 18,
+      "name": "Military"
+    },
+    {
+      "id": 19,
+      "name": "Politics"
+    },
+    {
+      "id": 20,
+      "name": "Post-Apocalyptic"
+    },
+    {
+      "id": 21,
+      "name": "Mystery"
+    },
+    {
+      "id": 22,
+      "name": "Thriller"
+    },
+    {
+      "id": 23,
+      "name": "Young Adult"
+    },
+    {
+      "id": 24,
+      "name": "Mythology"
+    },
+    {
+      "id": 25,
+      "name": "Psychology"
+    },
+    {
+      "id": 26,
+      "name": "Self Help"
+    },
+    {
+      "id": 27,
+      "name": "Science"
+    },
+    {
+      "id": 28,
+      "name": "Physics"
+    },
+    {
+      "id": 29,
+      "name": "Biology"
+    },
+    {
+      "id": 30,
+      "name": "True Crime"
+    },
+    {
+      "id": 31,
+      "name": "History"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 1,
+      "name": "Penguin Books",
+      "country": "United Kingdom",
+      "foundedYear": 1935,
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Scribner",
+      "country": "United States",
+      "foundedYear": 1846,
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "Vintage Classics",
+      "country": "United Kingdom",
+      "foundedYear": 1954,
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "Houghton Mifflin",
+      "country": "United States",
+      "foundedYear": 1880,
+      "active": true
+    },
+    {
+      "id": 5,
+      "name": "Oxford University Press",
+      "country": "United Kingdom",
+      "foundedYear": 1586,
+      "active": true
+    },
+    {
+      "id": 6,
+      "name": "Harper Perennial",
+      "country": "United States",
+      "foundedYear": 1960,
+      "active": true
+    },
+    {
+      "id": 7,
+      "name": "Vintage",
+      "country": "United States",
+      "foundedYear": 1954,
+      "active": true
+    },
+    {
+      "id": 8,
+      "name": "Simon & Schuster",
+      "country": "United States",
+      "foundedYear": 1924,
+      "active": true
+    },
+    {
+      "id": 9,
+      "name": "Bantam",
+      "country": "United States",
+      "foundedYear": 1945,
+      "active": true
+    },
+    {
+      "id": 10,
+      "name": "Little, Brown",
+      "country": "United States",
+      "foundedYear": 1837,
+      "active": true
+    },
+    {
+      "id": 11,
+      "name": "Harper",
+      "country": "United States",
+      "foundedYear": 1817,
+      "active": true
+    },
+    {
+      "id": 12,
+      "name": "Random House",
+      "country": "United States",
+      "foundedYear": 1927,
+      "active": true
+    },
+    {
+      "id": 13,
+      "name": "Scholastic",
+      "country": "United States",
+      "foundedYear": 1920,
+      "active": true
+    },
+    {
+      "id": 14,
+      "name": "Harcourt",
+      "country": "United States",
+      "foundedYear": 1919,
+      "active": false
+    },
+    {
+      "id": 15,
+      "name": "Picador",
+      "country": "United Kingdom",
+      "foundedYear": 1972,
+      "active": true
+    },
+    {
+      "id": 16,
+      "name": "Grand Central",
+      "country": "United States",
+      "foundedYear": 1970,
+      "active": true
+    },
+    {
+      "id": 17,
+      "name": "Farrar, Straus and Giroux",
+      "country": "United States",
+      "foundedYear": 1946,
+      "active": true
+    },
+    {
+      "id": 18,
+      "name": "Schocken",
+      "country": "Germany",
+      "foundedYear": 1931,
+      "active": true
+    }
+  ]
+}

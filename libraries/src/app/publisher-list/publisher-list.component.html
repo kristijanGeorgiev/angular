@@ -1,0 +1,31 @@
+<br>
+<div>
+    <button style="background-color: rgb(0, 192, 250); color: white;"><a routerLink="/publisher-add" class="add-publisher">Add New Publishers</a></button>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th (click)="sortByID()">ID</th>
+                <th (click)="sortByName()">Name</th>
+                <th>Country</th>
+                <th>FoundedYear</th>
+                <th>Active</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let publisher of publishers">
+                <td>{{ publisher.id }}</td>
+                <td>{{ publisher.name }}</td>
+                <td>{{ publisher.country }}</td>
+                <td>{{ publisher.foundedYear }}</td>
+                <td>{{ publisher.active }}</td>
+                <td>
+                    <button style="background-color: blue; color: white;" (click)="viewPublishersDetails(publisher)">View</button>
+                    <button style="background-color: rgb(21, 177, 15); color: white;" (click)="editPublishers(publisher)">Edit</button>
+                    <button style="background-color: red; color: white;" (click)="deletePublishers(publisher)">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

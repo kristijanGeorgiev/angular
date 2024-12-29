@@ -1,0 +1,13 @@
+<div *ngIf="publishers">
+    <h2 style="color: rgb(0, 0, 0);">Publishers Details</h2>
+    <p style="color: rgb(0, 0, 0);"><strong>ID:</strong> {{ publishers.id }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Name:</strong> {{ publishers.name }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Country:</strong> {{ publishers.country }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>FoundedYear:</strong> {{ publishers.foundedYear }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Active:</strong> {{ publishers.active }}</p>
+
+    <div style="margin-top: 10px;">
+        <button style="background-color: firebrick; color: white;" type="button" class="back-button" (click)="goToPublishersList()">Back</button>
+      </div>
+  </div>
+  

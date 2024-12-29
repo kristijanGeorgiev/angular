@@ -1,0 +1,18 @@
+<div *ngIf="publishers">
+    <h2>Edit Publishers</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input [(ngModel)]="publishers.name" name="name" />
+
+        <label for="country">Country:</label>
+        <input [(ngModel)]="publishers.country" name="country" />
+
+        <label for="foundedyear">FoundedYear:</label>
+        <input [(ngModel)]="publishers.foundedYear" name="foundedYear" type="number" />
+
+        <label for="active">Active:</label>
+        <input [(ngModel)]="publishers.active" name="active" />
+
+        <button style="background-color: rgb(23, 124, 218); color: white;" (click)="saveChanges()">Save Changes</button>
+    </form>
+</div>

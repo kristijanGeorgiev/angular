@@ -1,0 +1,13 @@
+<div>
+    <h2>Add New Categories</h2>
+    <form (submit)="addCategory()">
+        <!-- Movie Title -->
+        <label for="name">Name:</label>
+        <input [(ngModel)]="newCategory.name" name="name" required />
+        <hr>
+        <div style="margin-top: 10px;">
+            <button type="submit">Save Category</button>
+            <button type="button" class="back-button" (click)="goToCategoryList()">Back</button>
+          </div>
+    </form>
+</div>

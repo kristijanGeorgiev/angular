@@ -1,0 +1,22 @@
+<div>
+    <h2>Add New Publishers</h2>
+    <form (submit)="addPublishers()">
+        <!-- Movie Title -->
+        <label for="name">Name:</label>
+        <input [(ngModel)]="newPublishers.name" name="title" required />
+
+        <label for="country">Country:</label>
+        <input [(ngModel)]="newPublishers.country" name="country" />
+
+        <label for="foundedyear">FoundedYear:</label>
+        <input [(ngModel)]="newPublishers.foundedYear" name="foundedyear" type="number" />
+
+        <label for="active">Active:</label>
+        <input [(ngModel)]="newPublishers.active" name="active" />
+        <hr>
+        <div style="margin-top: 10px;">
+            <button type="submit">Save Publisher</button>
+            <button type="button" class="back-button" (click)="goToPublishersList()">Back</button>
+          </div>
+    </form>
+</div>

@@ -1,0 +1,30 @@
+<div *ngIf="books">
+    <h2>Edit Books</h2>
+    <form>
+        <label for="title">Title:</label>
+        <input [(ngModel)]="books.title" name="title" />
+
+        <label for="author">Author:</label>
+        <input [(ngModel)]="books.author" name="author" />
+
+        <label for="isbn">Isbn:</label>
+        <input [(ngModel)]="books.isbn" name="isbn" />
+
+        <label for="publishedyear">PublishedYear:</label>
+        <input [(ngModel)]="books.publishedYear" name="publishedyear" type="number" />
+
+        <label for="publisher">Publisher:</label>
+        <input [(ngModel)]="books.publisher" name="publisher" />
+
+        <label for="available">Available:</label>
+        <input [(ngModel)]="books.available" name="available" />
+
+        <label for="condition">Condition:</label>
+        <input [(ngModel)]="books.condition" name="condition" />
+
+        <label for="language">Language:</label>
+        <input [(ngModel)]="books.language" name="language" />
+
+        <button style="background-color: rgb(23, 124, 218); color: white;" (click)="saveChanges()">Save Changes</button>
+    </form>
+</div>
