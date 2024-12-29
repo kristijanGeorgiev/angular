@@ -1,0 +1,11 @@
+<div *ngIf="actors">
+    <h2 style="color: rgb(0, 0, 0);">Actors Details</h2>
+    <p style="color: rgb(0, 0, 0);"><strong>ID:</strong> {{ actors.id }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Name:</strong> {{ actors.name }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>BirthDate:</strong> {{ actors.birthdate }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>DeathDate:</strong> {{ actors.deathdate}}</p>
+    <div style="margin-top: 10px;">
+        <button style="background-color: firebrick; color: white;" type="button" class="back-button" (click)="goToActorsList()">Back</button>
+      </div>
+  </div>
+  

@@ -1,0 +1,13 @@
+<div>
+    <h2>Add New Companions</h2>
+    <form (submit)="addCompanion()">
+        <!-- Movie Title -->
+        <label for="name">Name:</label>
+        <input [(ngModel)]="newCompanion.name" name="name" required />
+        <hr>
+        <div style="margin-top: 10px;">
+            <button type="submit">Save Companions</button>
+            <button type="button" class="back-button" (click)="goToCompanionList()">Back</button>
+          </div>
+    </form>
+</div>

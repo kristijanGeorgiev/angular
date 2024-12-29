@@ -1,0 +1,19 @@
+<div>
+    <h2>Add New Actors</h2>
+    <form (submit)="addActors()">
+        <!-- Movie Title -->
+        <label for="name">Name:</label>
+        <input [(ngModel)]="newActor.name" name="name" required />
+
+        <label for="birthdate">BirthDate:</label>
+        <input [(ngModel)]="newActor.birthdate" name="birthdate" type="date" required />
+
+        <label for="deathdate">DeathDate:</label>
+        <input [(ngModel)]="newActor.deathdate" name="deathdate" type="date" required />
+        <hr>
+        <div style="margin-top: 10px;">
+            <button type="submit">Save Actors</button>
+            <button type="button" class="back-button" (click)="goToActorsList()">Back</button>
+          </div>
+    </form>
+</div>

@@ -1,0 +1,15 @@
+<div *ngIf="actors">
+    <h2>Edit Actors</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input [(ngModel)]="actors.name" name="name" />
+
+        <label for="birthdate">BirthDate:</label>
+        <input [(ngModel)]="actors.birthdate" name="birthdate" type="date" />
+
+        <label for="deathdate">DeathDate:</label>
+        <input [(ngModel)]="actors.deathdate" name="deathdate" type="date" />
+
+        <button style="background-color: rgb(23, 124, 218); color: white;" (click)="saveChanges()">Save Changes</button>
+    </form>
+</div>

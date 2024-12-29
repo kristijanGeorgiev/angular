@@ -1,0 +1,9 @@
+<div *ngIf="companions">
+    <h2 style="color: rgb(0, 0, 0);">Companions Details</h2>
+    <p style="color: rgb(0, 0, 0);"><strong>ID:</strong> {{ companions.id }}</p>
+    <p style="color: rgb(0, 0, 0);"><strong>Name:</strong> {{ companions.name }}</p>
+    <div style="margin-top: 10px;">
+        <button style="background-color: firebrick; color: white;" type="button" class="back-button" (click)="goToCompanionsList()">Back</button>
+      </div>
+  </div>
+  
