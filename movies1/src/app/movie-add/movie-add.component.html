@@ -1,0 +1,55 @@
+<div>
+    <h2>Add New Movie</h2>
+    <form (submit)="addMovie()">
+        <!-- Movie Title -->
+        <label for="title">Title:</label>
+        <input [(ngModel)]="newMovie.title" name="title" required />
+
+        <!-- Movie Year -->
+        <label for="year">Year:</label>
+        <input [(ngModel)]="newMovie.year" name="year" type="number" required />
+
+        <!-- Director -->
+        <label for="director">Director:</label>
+        <input [(ngModel)]="newMovie.director" name="director" required />
+
+        <!-- Genre -->
+        <label for="genre">Genre:</label>
+        <input [(ngModel)]="newMovie.genre" name="genre" required />
+
+        <!-- Plot -->
+        <label for="plot">Plot:</label>
+        <input [(ngModel)]="newMovie.plot" name="plot" required />
+        <button 
+            style="background-color: rgb(225, 41, 219); color: white;" 
+            type="button" 
+            (click)="addOscarField()">
+            Add New Oscar
+        </button>
+        <hr>
+        <!-- Rating -->
+        <label for="rating">Rating:</label>
+        <input [(ngModel)]="newMovie.rating" name="rating" type="number" required />
+
+        <!-- Cast -->
+        <label for="cast">Cast:</label>
+        <div *ngFor="let cast of newMovie.cast; let i = index">
+            <label for="actor{{i}}">Actor:</label>
+            <input [(ngModel)]="newMovie.cast[i].actor" name="actor{{i}}" />
+
+            <label for="character{{i}}">Character:</label>
+            <input [(ngModel)]="newMovie.cast[i].character" name="character{{i}}" />
+        </div>
+        <button 
+            style="background-color: brown; color: white;" 
+            type="button" 
+            (click)="addCastField()">
+            Add New Cast
+        </button>
+        <hr>
+        <div style="margin-top: 10px;">
+            <button type="submit">Save Movie</button>
+            <button type="button" class="back-button" (click)="goToMovieList()">Back</button>
+          </div>
+    </form>
+</div>

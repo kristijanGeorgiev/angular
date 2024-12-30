@@ -1,0 +1,32 @@
+<div *ngIf="movie">
+    <h2>Edit Movie</h2>
+    <form>
+        <label for="title">Title:</label>
+        <input [(ngModel)]="movie.title" name="title" />
+
+        <label for="director">Director:</label>
+        <input [(ngModel)]="movie.director" name="director" />
+
+        <label for="genre">Genre:</label>
+        <input [(ngModel)]="movie.genre" name="genre" />
+
+        <label for="plot">Plot:</label>
+        <input [(ngModel)]="movie.plot" name="plot" />
+
+        <h3>Cast</h3>
+        <div *ngFor="let Cast of movie.cast; let i = index">
+            <label for="Actor{{i}}">Name:</label>
+            <input [(ngModel)]="movie.cast[i].actor" name="Actor{{i}}" />
+
+            <label for="Character{{i}}">Character:</label>
+            <input [(ngModel)]="movie.cast[i].character" name="character{{i}}" />
+        </div>
+
+
+
+        <label for="rating">Rating:</label>
+        <input [(ngModel)]="movie.rating" name="rating" type="number" />
+
+        <button style="background-color: rgb(23, 124, 218); color: white;" (click)="saveChanges()">Save Changes</button>
+    </form>
+</div>
